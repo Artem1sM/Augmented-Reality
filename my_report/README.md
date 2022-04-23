@@ -32,3 +32,4 @@
 
 # Sources
 |A-frame||https://coolors.co/f6bd60-f7ede2-f5cac3-84a59d-f28482| |https://aframe.io/docs/1.3.0/components/geometry.html#cylinder#| |https://www.npmjs.com/package/aframe-particle-system-component| |https://www.npmjs.com/package/aframe-speech-command-component|
+  |https://medium.com/chialab-open-source/ar-js-the-simpliest-way-to-get-cross-browser-ar-on-the-web-8f670dd45462| |Marker Creator|
