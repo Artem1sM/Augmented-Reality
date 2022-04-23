@@ -59,7 +59,9 @@
 
     <a-marker type="barcode" value="7" id="hydrogen_marker">
       <a-image src="assets/card-H.png" rotation="-50 0 0" geometry="width: 2.5; height: 2.5"></a-image>
-      <a-entity   position="0 1.3 0"
+      <a-entity   gltf-model="url(assets/hydrogen.gltf)"
+                  gltf-model="#H" animation-mixer
+                  position="0 1.3 0"
                   rotation="0 0 0"
                   scale="0.5 0.5 0.5"
                   gltf-model="#H"
@@ -69,7 +71,9 @@
 
         <a-marker type="barcode" value="20" id="oxygen_marker">
           <a-image src="assets/card-O.png" rotation="-50 0 0" geometry="width: 2.5; height: 2.5"></a-image>
-          <a-entity   position="0 1.3 0"
+          <a-entity   gltf-model="url(assets/oxygen.gltf)"
+                      gltf-model="#O" animation-mixer
+                      position="0 1.3 0"
                       rotation="0 0 0"
                       scale="0.5 0.5 0.5"
                       gltf-model="#O"
